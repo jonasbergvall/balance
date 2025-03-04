@@ -40,7 +40,7 @@ def main():
 
 def start_page():
     st.title("Welcome to the Organizational Balance Assessment")
-    st.image("images/firstpage.webp", use_column_width=True)
+    st.image("images/firstpage.webp",  use_container_width=True)
     st.markdown("""
     ### Discover the balance within your organization!
     
